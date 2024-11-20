@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Exercise 3</title>
+    <link rel="stylesheet" href="style3.css">
+    <script src="javascript3.js" defer></script>
+</head>
+<body>
+
+    <h1>Population registration page</h1>
+    <hr>
+
+    <div id="Datainput">
+        <h3>Register population:</h3>
+        <label for="city">City:</label>
+        <br>
+        <input type="text" id="city" required>
+        <br>
+        <label for="population">Population:</label>
+        <br>
+        <input type="text" id="population" required>
+        <br><br>
+        <button type="text" id="register">Register</button>
+    </div>
+    <p> Registered cities and their population :</p>
+    <table id="DataTable">
+        <thead>
+            <tr>
+                <th>City</th>
+                <th>Population</th>
+            </tr>
+        </thead>
+        <tbody id="datarows">
+        </tbody>
+    </table>
+
+    <div id="info">
+        <p><strong>Total population in cities:</strong> <span id="total-population">0</span></p>
+        <p><strong>Largest city:</strong> <span id="largest-city">None</span></p>
+    </div>
+    
+   
+</body>
+</html>
